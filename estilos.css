@@ -37,6 +37,8 @@ p{
     text-align: justify;
     max-width: 100%;
     padding-top: 25px;
+    margin-left: 18%;
+    margin-right: 18%;
     }
 
 .header{
@@ -73,7 +75,6 @@ p{
 }
 
 .logo-nav-container{
-    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -154,7 +155,7 @@ td{
 
 .TituloTabla{
     font-size: 40px;
-    padding: 5px;
+    padding: 10px;
     margin: 0px;
     color: white;
     text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
@@ -174,7 +175,7 @@ td{
     color: white;
     text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
     vertical-align: top;
-    padding: 4px 8px;
+    padding: 2%;
     margin: 0px;
 }
 
