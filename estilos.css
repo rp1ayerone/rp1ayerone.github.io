@@ -3,6 +3,7 @@ body{
     font-size: 1.2rem;
     line-height: 1.6em;
     margin: 0;
+    width: 100%;
 }
 
 h1{
@@ -33,9 +34,9 @@ p{
 }
 
 .containertitulos {
-    width: 85%;
-    max-width: 950px;
-    margin: 0 20%;
+    text-align: justify;
+    max-width: 100%;
+    padding-top: 25px;
     }
 
 .header{
@@ -44,7 +45,7 @@ p{
     position: fixed;
     z-index: 1;
     left: 0;
-    top: 80px;
+    top: 90px;
     right: 0;
 }
 
@@ -55,9 +56,11 @@ p{
 
 .mainlogo{
     position: absolute;
-    left: 50px;
-    top: -106px;
-    width: 225px;
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    top: 0px;
+    top: -100px;
 }
 
 .atajohome{
@@ -70,6 +73,7 @@ p{
 }
 
 .logo-nav-container{
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -235,7 +239,7 @@ td{
     background-color: #918f89;
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1080px){
 
     .bannersup{
     position: fixed;
