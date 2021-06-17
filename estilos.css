@@ -1,0 +1,358 @@
+body{
+    font-family: "Aldrich";
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.3em;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 1.3em;
+}
+
+h3{
+    font-size: 25px;
+    line-height: 1.3em;
+}
+
+p{
+    margin-bottom: 1em;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.containertitulos {
+    width: 85%;
+    max-width: 950px;
+    margin: 0 20%;
+    }
+
+.header{
+    color: white;
+    padding: 0em;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 80px;
+    right: 0;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.mainlogo{
+    position: absolute;
+    left: 50px;
+    top: -106px;
+    width: 225px;
+}
+
+.atajohome{
+    position: absolute;
+    left: 67px;
+    top: -79px;
+    width: 212px;
+    height: 200px;
+    text-align: center;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.4em;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 1rem 1rem;
+    transition: all 0.4s linear;
+    background-image: url(/Assets/WoodSign.png);
+    background-size: 100% 100%;
+    font-family: "aldrich";
+    font-size: 30px;
+    color: yellow;
+    -webkit-text-stroke: black 1px;
+    transition-duration: 0s;
+}
+
+.navigation ul li a:hover{
+    background-image: url(/Assets/WoodSignBusted.png);
+    
+
+}
+
+.bannersup{
+    position: fixed;
+    width: 100%;
+    z-index: 0;
+}
+
+.main{
+    padding-top: 9.5rem;
+    bottom: 0px;
+}
+
+.tablaservicios {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+table{
+    border: none;
+    border-collapse: separate;
+    border-spacing: 0 30px;
+}
+
+td{
+    text-align: justify;
+    /* width: 50%; */
+    margin: 0px;
+    padding: 0;
+    vertical-align: top;
+    
+}
+
+.TituloTabla{
+    font-size: 40px;
+    padding: 5px;
+    margin: 0px;
+    color: white;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.TituloTabla2{
+    font-size: 40px;
+    padding: 5px;
+    margin: 0px;
+    color: black;
+    text-shadow: 1px 0 0 white, -1px 0 0 white, 0 1px 0 white, 0 -1px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+}
+
+.ParrafoTabla{
+    font-size: 24px;
+    max-width: 750px;
+    color: white;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    vertical-align: top;
+    padding: 4px 8px;
+    margin: 0px;
+}
+
+.ParrafoTabla2{
+    color: black;
+    font-size: 24px;
+    max-width: 750px;
+    vertical-align: top;
+    padding: 4px 8px;
+    margin: 0px;
+}
+
+.fototabla{
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+.fila1{
+    background-image: url(/Assets/Config\ Tecnica2.jpg);
+    background-size: contain;
+    background-size: 50%;
+}
+
+.fila2{
+    background-image: url(/Assets/Coaching2.jpg);
+    background-size: 50%;
+    background-position: right;
+}
+
+.fila3{
+    background-image: url(/Assets/Comm\ Managment2.jpg);
+    background-size: contain;
+    background-size: 50%;
+}
+
+.fila4{
+    background-image: url(/Assets/Comp\ Psico2.jpg);
+    background-size: contain;
+    background-size: 50%;
+}
+
+.fila5{
+    background-image: url(/Assets/Taylor2.jpg);
+    background-size: contain;
+    background-size: 50%;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footertexto{
+    font-size: 15px;
+    margin: 0;
+    padding: 0%;
+    text-align: center;
+    background-color: #918f89;
+}
+
+@media only screen and (max-width: 900px){
+
+    .bannersup{
+    position: fixed;
+    width: 1400px;
+    z-index: 0;
+}
+    
+    .navigation{
+        position: absolute;
+        background-size: 100% 100%;
+        right: 0px;
+        top: 29px;
+    }
+
+    .containercontenido {
+        width: 85%;
+        max-width: 950px;
+        margin: 0 9%;
+        }
+    
+    .navigation ul li {
+        display: block;
+        height: 19px;
+        right: 0px;
+    }
+    
+    .navigation ul li a {
+        right: 0px;
+        padding: 0.5rem 0.5rem;
+        text-align: center;
+        background-size: 100% 100%;
+    }
+    
+    .navigation ul li a:hover{
+        background-image: url(/Assets/WoodSignBusted.png);
+    
+    }
+
+    .menu-icon{
+        display: inline-block;
+        position: absolute;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        transition: all 0.4s linear;
+        background-image: url(/Assets/WoodSign.png);
+        background-size: 100% 100%;
+        font-family: "aldrich";
+        font-size: 30px;
+        color: yellow;
+        -webkit-text-stroke: black 1px;
+        transition-duration: 0s;
+        right: 0px;  
+    }
+
+    .navigation ul{
+        right: 0px;
+        display: none;
+    }
+
+    .navigation ul.show{
+        right: 0px;
+        display: block;
+    }
+
+    .mainlogo{
+        display: block;
+        left: 0px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 150px;
+        width: 150px;
+    }
+
+    .main{
+        padding-top: 7.5rem;
+        background-position: 0px 150px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        bottom: 0px;
+    }
+
+    .atajohome{
+        position: absolute;
+        left: 11px;
+        top: -76px;
+        width: 124px;
+        height: 122px;
+        text-align: center;
+    }
+
+    .tablaservicios {
+        width: 100%;
+    }
+    
+    td{
+        text-align: justify;
+        width: 50%;
+        margin: 0px;
+        padding: 0px;
+        vertical-align: top;
+    }
+    
+    .TituloTabla{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .ParrafoTabla{
+        vertical-align: top;
+        padding: 0px;
+        margin: 0px;
+        max-height: 400px;
+    }
+    
+    .fototabla{
+        width: 100%;
+    }
+
+}
