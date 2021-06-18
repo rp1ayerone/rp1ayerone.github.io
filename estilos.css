@@ -6,110 +6,81 @@ body{
     width: 100%;
 }
 
-h1{
-    font-size: 40px;
-    line-height: 1.3em;
-}
-
-h2{
-    font-size: 30px;
-    line-height: 1.3em;
-}
-
-h3{
-    font-size: 25px;
-    line-height: 1.3em;
-}
-
-p{
-    margin-bottom: 1em;
-    font-size: 20px;
-    text-align: justify;
-}
-
-.container {
-    width: 85%;
-    max-width: 850px;
-    margin: 0 auto;
-}
-
-.containertitulos {
-    text-align: justify;
-    max-width: 100%;
-    padding-top: 25px;
-    margin-left: 18%;
-    margin-right: 18%;
-    }
-
 .header{
     color: white;
     padding: 0em;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     left: 0;
-    top: 90px;
+    top: 0px;
     right: 0;
+    height: 10vw;
 }
 
 .header a{
-    color: white;
     text-decoration: none;
 }
 
-.mainlogo{
+.logo-nav-container{
     position: absolute;
+    text-align: center;
     margin: 0px;
     padding: 0px;
-    left: 0px;
-    top: 0px;
-    top: -100px;
-}
-
-.atajohome{
-    position: absolute;
-    left: 67px;
-    top: -79px;
-    width: 212px;
-    height: 200px;
-    text-align: center;
-}
-
-.logo-nav-container{
-    display: flex;
+    z-index: 2;
+    top: 48%;
+    height: 55.72px;
     justify-content: space-between;
     align-items: baseline;
     flex-wrap: wrap;
     width: 100%;
+    bottom: 0px;
 }
 
-.logo{
-    letter-spacing: 15px;
-    font-size: 1.4em;
+.mainlogo{
+    position: absolute;
+    z-index: 3;
+    height: 15vw;
+    margin: 0px;
+    padding: 0px;
+    left: 1vw;
+    top: 0px;
+    cursor: pointer;
 }
 
-.menu-icon{
-    display: none;
+.bannersup{
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    top: 0px;
+}
+
+.navigation {
+    width: 100%;
+    top: 0px;
+    height: 66.75px;
 }
 
 .navigation ul {
-    margin: 0;
-    padding: 0%;
     list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .navigation ul li {
     display: inline-block;
-    padding: 10px;
+    padding: 0em 3vw 0em 0em;
 }
 
 .navigation ul li a {
     display: block;
-    padding: 1rem 1rem;
     transition: all 0.4s linear;
     background-image: url(/Assets/WoodSign.png);
     background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1vw;
     font-family: "aldrich";
-    font-size: 30px;
+    font-size: 1.6vw;
     color: yellow;
     -webkit-text-stroke: black 1px;
     transition-duration: 0s;
@@ -121,15 +92,36 @@ p{
 
 }
 
-.bannersup{
-    position: fixed;
-    width: 100%;
-    z-index: 0;
+h1{
+    font-size: 2.5vw;
+    line-height: 1.3em;
 }
 
-.main{
-    padding-top: 9.5rem;
-    bottom: 0px;
+h2{
+    font-size: 2.0vw;
+    line-height: 1.3em;
+}
+
+h3{
+    font-size: 1.5vw;
+    line-height: 1.3em;
+}
+
+p{
+    font-size: 1.2vw;
+    text-align: justify;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.containertitulos {
+    text-align: justify;
+    max-width: 100%;
+    padding-top: 10%;
+    margin-left: 20%;
+    margin-right: 17%;
 }
 
 .tablaservicios {
@@ -146,7 +138,6 @@ table{
 
 td{
     text-align: justify;
-    /* width: 50%; */
     margin: 0px;
     padding: 0;
     vertical-align: top;
@@ -154,7 +145,7 @@ td{
 }
 
 .TituloTabla{
-    font-size: 40px;
+    font-size: 3vw;
     padding: 10px;
     margin: 0px;
     color: white;
@@ -163,19 +154,18 @@ td{
 
 .TituloTabla2{
     font-size: 40px;
-    padding: 5px;
+    padding: 10px;
     margin: 0px;
     color: black;
     text-shadow: 1px 0 0 white, -1px 0 0 white, 0 1px 0 white, 0 -1px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
 }
 
 .ParrafoTabla{
-    font-size: 24px;
-    max-width: 750px;
+    font-size: 1.4vw;
     color: white;
     text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
     vertical-align: top;
-    padding: 2%;
+    padding: 15px;
     margin: 0px;
 }
 
@@ -184,6 +174,7 @@ td{
     font-size: 24px;
     max-width: 750px;
     vertical-align: top;
+    text-shadow: 1px 0 0 white, -1px 0 0 white, 0 1px 0 white, 0 -1px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 
     padding: 4px 8px;
     margin: 0px;
 }
@@ -197,13 +188,15 @@ td{
 .fila1{
     background-image: url(/Assets/Config\ Tecnica2.jpg);
     background-size: contain;
-    background-size: 50%;
+    background-position: left;
+    background-repeat: no-repeat;
 }
 
 .fila2{
     background-image: url(/Assets/Coaching2.jpg);
-    background-size: 50%;
+    background-size: contain;
     background-position: right;
+    background-repeat: no-repeat;
 }
 
 .fila3{
@@ -240,7 +233,7 @@ td{
     background-color: #918f89;
 }
 
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 1216px){
 
     .bannersup{
     position: fixed;
