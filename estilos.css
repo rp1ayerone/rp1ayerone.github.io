@@ -174,7 +174,7 @@ td{
     font-size: 24px;
     max-width: 750px;
     vertical-align: top;
-    text-shadow: 1px 0 0 white, -1px 0 0 white, 0 1px 0 white, 0 -1px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 
+    text-shadow: 1px 0 0 white, -1px 0 0 white, 0 1px 0 white, 0 -1px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px;
     padding: 4px 8px;
     margin: 0px;
 }
