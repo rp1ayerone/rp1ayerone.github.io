@@ -1,9 +1,16 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body{
     font-family: "Aldrich";
     font-size: 1.2rem;
     line-height: 1.6em;
     margin: 0;
-    width: 100%;
+    width: 100%px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header{
@@ -15,10 +22,12 @@ body{
     top: 0px;
     right: 0;
     height: 10vw;
+    width: 100%;
 }
 
 .header a{
     text-decoration: none;
+    line-height: 1.5vw;
 }
 
 .logo-nav-container{
@@ -73,6 +82,8 @@ body{
 
 .navigation ul li a {
     display: block;
+    width: 100%;
+    height: 1.5vw;
     transition: all 0.4s linear;
     background-image: url(/Assets/WoodSign.png);
     background-size: 100% 100%;
@@ -109,6 +120,7 @@ h3{
 
 p{
     font-size: 1.2vw;
+    line-height: 1.5vw;;
     text-align: justify;
 }
 
@@ -118,10 +130,9 @@ p{
 
 .containertitulos {
     text-align: justify;
-    max-width: 100%;
-    padding-top: 10%;
-    margin-left: 20%;
-    margin-right: 17%;
+    max-width: 74vw;
+    padding-top: 10vw;
+    margin-left: 20vw;
 }
 
 .tablaservicios {
@@ -133,7 +144,8 @@ p{
 table{
     border: none;
     border-collapse: separate;
-    border-spacing: 0 30px;
+    border-spacing: 0 15px;
+    width: 100%;
 }
 
 td{
@@ -146,18 +158,12 @@ td{
 
 .TituloTabla{
     font-size: 3vw;
-    padding: 10px;
-    margin: 0px;
+    padding: 0px;
+    margin: 2vw 0 0 1.9vw;
+    text-align: left;
+    width: 100%;
     color: white;
     text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
-}
-
-.TituloTabla2{
-    font-size: 40px;
-    padding: 10px;
-    margin: 0px;
-    color: black;
-    text-shadow: 1px 0 0 white, -1px 0 0 white, 0 1px 0 white, 0 -1px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
 }
 
 .ParrafoTabla{
@@ -165,56 +171,119 @@ td{
     color: white;
     text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
     vertical-align: top;
-    padding: 15px;
-    margin: 0px;
-}
-
-.ParrafoTabla2{
-    color: black;
-    font-size: 24px;
-    max-width: 750px;
-    vertical-align: top;
-    text-shadow: 1px 0 0 white, -1px 0 0 white, 0 1px 0 white, 0 -1px 0 white, 1px 1px white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px;
-    padding: 4px 8px;
-    margin: 0px;
+    padding: 0px;
+    margin: .5vw 0 0 2.0vw;
+    width: 100%;
 }
 
 .fototabla{
-    width: 100%;
+    width: 32vw;
+    height: 22vw;
     padding: 0px 0px;
-    margin: 0px;
+    margin: 0 0 0 9vw;
 }
+
 
 .fila1{
     background-image: url(/Assets/Config\ Tecnica2.jpg);
-    background-size: contain;
-    background-position: left;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    height: 20vw;
+}
+
+.TituloTabla2{
+    font-size: 3vw;
+    padding: 0px;
+    margin: 2vw 0 0 -1.9vw;
+    text-align: left;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.ParrafoTabla2{
+    font-size: 1.4vw;
+    color: white;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    vertical-align: top;
+    padding: 0px;
+    margin: .5vw 0 0 -2.0vw;
+    width: 100%;
+}
+
+.fototabla2{
+    width: 32vw;
+    height: 22vw;
+    padding: 0px 0px;
+    margin: 0 0 0 8vw;
 }
 
 .fila2{
     background-image: url(/Assets/Coaching2.jpg);
-    background-size: contain;
-    background-position: right;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
 }
 
 .fila3{
     background-image: url(/Assets/Comm\ Managment2.jpg);
-    background-size: contain;
-    background-size: 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
 }
 
 .fila4{
     background-image: url(/Assets/Comp\ Psico2.jpg);
-    background-size: contain;
-    background-size: 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
 }
+
+.filaPsico{
+    max-width: 1vw;
+}
+
+.TituloTabla3{
+    font-size: 3vw;
+    padding: 0px;
+    margin: 1vw 0 0 -2vw;
+    text-align: left;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.ParrafoTabla3{
+    font-size: 1.4vw;
+    color: white;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    vertical-align: top;
+    padding: 0px;
+    margin: .5vw 0 0 -2.0vw;
+    width: 100%;
+}
+
+.fototabla3{
+    width: 32vw;
+    height: 22vw;
+    padding: 0px 0px;
+    margin: 0 0 0 8vw;
+}
+
+
+
 
 .fila5{
     background-image: url(/Assets/Taylor2.jpg);
-    background-size: contain;
-    background-size: 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
 }
 
 .footer{
@@ -324,33 +393,4 @@ td{
         height: 122px;
         text-align: center;
     }
-
-    .tablaservicios {
-        width: 100%;
-    }
-    
-    td{
-        text-align: justify;
-        width: 50%;
-        margin: 0px;
-        padding: 0px;
-        vertical-align: top;
-    }
-    
-    .TituloTabla{
-        padding: 0px;
-        margin: 0px;
-    }
-    
-    .ParrafoTabla{
-        vertical-align: top;
-        padding: 0px;
-        margin: 0px;
-        max-height: 400px;
-    }
-    
-    .fototabla{
-        width: 100%;
-    }
-
 }
