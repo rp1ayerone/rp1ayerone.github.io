@@ -8,7 +8,7 @@ body{
     font-size: 1.2rem;
     line-height: 1.6em;
     margin: 0;
-    width: 100%px;
+    width: 100%;
     margin: 0px;
     padding: 0px;
 }
@@ -305,44 +305,44 @@ td{
 @media only screen and (max-width: 1216px){
 
     .bannersup{
-    position: fixed;
+    /* position: fixed;
     width: 1400px;
-    z-index: 0;
+    z-index: 0; */
 }
     
     .navigation{
-        position: absolute;
+      /*   position: absolute;
         background-size: 100% 100%;
         right: 0px;
-        top: 29px;
+        top: 29px; */
     }
 
     .containercontenido {
-        width: 85%;
+      /*   width: 85%;
         max-width: 950px;
-        margin: 0 9%;
+        margin: 0 9%; */
         }
     
     .navigation ul li {
-        display: block;
+    /*     display: block;
         height: 19px;
-        right: 0px;
+        right: 0px; */
     }
     
     .navigation ul li a {
-        right: 0px;
+     /*    right: 0px;
         padding: 0.5rem 0.5rem;
         text-align: center;
-        background-size: 100% 100%;
+        background-size: 100% 100%; */
     }
     
     .navigation ul li a:hover{
-        background-image: url(/Assets/WoodSignBusted.png);
+        /* background-image: url(/Assets/WoodSignBusted.png); */
     
     }
 
     .menu-icon{
-        display: inline-block;
+      /*   display: inline-block;
         position: absolute;
         padding: 0.5rem 1rem;
         cursor: pointer;
@@ -354,43 +354,43 @@ td{
         color: yellow;
         -webkit-text-stroke: black 1px;
         transition-duration: 0s;
-        right: 0px;  
+        right: 0px;  */ 
     }
 
     .navigation ul{
-        right: 0px;
-        display: none;
+/*         right: 0px;
+        display: none; */
     }
 
     .navigation ul.show{
-        right: 0px;
-        display: block;
+/*         right: 0px;
+        display: block; */
     }
 
     .mainlogo{
-        display: block;
+ /*        display: block;
         left: 0px;
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
         height: 150px;
-        width: 150px;
+        width: 150px; */
     }
 
     .main{
-        padding-top: 7.5rem;
+   /*      padding-top: 7.5rem;
         background-position: 0px 150px;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        bottom: 0px;
+        bottom: 0px; */
     }
 
     .atajohome{
-        position: absolute;
+      /*   position: absolute;
         left: 11px;
         top: -76px;
         width: 124px;
         height: 122px;
-        text-align: center;
+        text-align: center; */
     }
 }
