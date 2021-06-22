@@ -301,6 +301,14 @@ td{
 
 @media only screen and (max-width: 1216px){
 
+    *{
+        font-family: "Aldrich";
+    }
+
+    .main{
+        margin-top: 25vw;
+    }
+
     .header{
         color: white;
         padding: 0em;
@@ -316,43 +324,62 @@ td{
     .bannersup{
         position: absolute;
         object-fit: cover;
-        height: 20vw;
+        height: 35vw;
         z-index: 0;
         top: 0px;
     }
 
-    
-    .navigation{
-        position: absolute;
-        background-size: 100% 100%;
-        top: -9vw;
-        right: 0px;
-        width: 30vw;
-        font-size: 30px;
-    }
-    
-    .navigation ul li a {
-        right: 0px;
-        padding: 0.5rem 1rem;
-        text-align: center;
-        background-size: 100% 100%;
-        font-size: 30px;
-    }
+    .mainlogo{
+        display: absolute;
+        left: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 35vw;
+        width: 35vw;
+           }
 
     .menu-icon{
         display: inline-block;
         position: absolute;
-        padding: 0.5rem 1rem;
+        z-index: 1;
+        padding: 0.4rem 0.9rem;
+        margin: 0px;
         cursor: pointer;
         transition: all 0.4s linear;
         background-image: url(/Assets/WoodSign.png);
         background-size: 100% 100%;
         font-family: "aldrich";
-        font-size: 30px;
+        font-size: 7vw;
         color: yellow;
         -webkit-text-stroke: black 1px;
         transition-duration: 0s;
-        left: 19vw;
+        right: 3vw;
+        top: 12vw;
+        }
+
+    
+    .navigation{
+        position: absolute;
+        background-size: 100% 100%;
+        top: -6vw;
+        left: 26vw;
+        width: 70vw;
+        height: 36vw;
+    }
+
+    .navigation ul li {
+        text-align: center;
+        background-size: 100% 100%;
+        padding: 1vw;
+    }
+
+    
+    .navigation ul li a {
+        text-align: center;
+        padding: 2vw 2vw;
+        background-size: 100% 100%;
+        font-size: 5vw;
     }
 
     .navigation ul{
@@ -363,16 +390,6 @@ td{
     .navigation ul.show{
     right: 0px;
     display: block;
-    }
-
-    .mainlogo{
- /*        display: block;
-        left: 0px;
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        height: 150px;
-        width: 150px; */
     }
 
     .main{
