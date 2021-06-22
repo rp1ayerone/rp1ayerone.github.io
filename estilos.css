@@ -11,9 +11,6 @@
     font-display: swap;
 }
 
-
-
-
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -313,6 +310,10 @@ td{
     padding: 0%;
     text-align: center;
     background-color: #918f89;
+}
+
+*{
+    font-family: 'Aldrich';
 }
 
 @media only screen and (max-width: 1216px){
