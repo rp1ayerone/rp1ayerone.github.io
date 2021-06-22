@@ -275,9 +275,6 @@ td{
     margin: 0 0 0 8vw;
 }
 
-
-
-
 .fila5{
     background-image: url(/Assets/Taylor2.jpg);
     background-size: 100% 100%;
@@ -304,45 +301,46 @@ td{
 
 @media only screen and (max-width: 1216px){
 
-    .bannersup{
-    /* position: fixed;
-    width: 1400px;
-    z-index: 0; */
-}
-    
-    .navigation{
-      /*   position: absolute;
-        background-size: 100% 100%;
-        right: 0px;
-        top: 29px; */
+    .header{
+        color: white;
+        padding: 0em;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 0px;
+        right: 0;
+        height: 20vw;
+        width: 100%;
     }
 
-    .containercontenido {
-      /*   width: 85%;
-        max-width: 950px;
-        margin: 0 9%; */
-        }
+    .bannersup{
+        position: absolute;
+        object-fit: cover;
+        height: 20vw;
+        z-index: 0;
+        top: 0px;
+    }
+
     
-    .navigation ul li {
-    /*     display: block;
-        height: 19px;
-        right: 0px; */
+    .navigation{
+        position: absolute;
+        background-size: 100% 100%;
+        top: -9vw;
+        right: 0px;
+        width: 30vw;
+        font-size: 30px;
     }
     
     .navigation ul li a {
-     /*    right: 0px;
-        padding: 0.5rem 0.5rem;
+        right: 0px;
+        padding: 0.5rem 1rem;
         text-align: center;
-        background-size: 100% 100%; */
-    }
-    
-    .navigation ul li a:hover{
-        /* background-image: url(/Assets/WoodSignBusted.png); */
-    
+        background-size: 100% 100%;
+        font-size: 30px;
     }
 
     .menu-icon{
-      /*   display: inline-block;
+        display: inline-block;
         position: absolute;
         padding: 0.5rem 1rem;
         cursor: pointer;
@@ -354,17 +352,17 @@ td{
         color: yellow;
         -webkit-text-stroke: black 1px;
         transition-duration: 0s;
-        right: 0px;  */ 
+        left: 19vw;
     }
 
     .navigation ul{
-/*         right: 0px;
-        display: none; */
+        right: 0px;
+        display: none;
     }
 
     .navigation ul.show{
-/*         right: 0px;
-        display: block; */
+    right: 0px;
+    display: block;
     }
 
     .mainlogo{
