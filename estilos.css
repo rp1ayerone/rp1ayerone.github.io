@@ -368,8 +368,6 @@ td{
         right: 3vw;
         bottom: 12vw;
         }
-
-        /* BACKUP PRE CAMBIOS NAVEGACIÓN */
     
     .navigation{
         position: absolute;
@@ -402,5 +400,11 @@ td{
     .navigation ul.show{
     right: 0px;
     display: block;
+    }
+
+    .navigation ul li a:hover{
+        background-image: url(/Assets/WoodSign.png);
+        
+    
     }
 }
