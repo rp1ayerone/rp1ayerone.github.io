@@ -343,23 +343,30 @@ td{
         width: 35vw;
            }
 
+           .logo-nav-container{
+            height: 35vw;
+        }
+
     .menu-icon{
+        text-align: center;
         display: inline-block;
         position: absolute;
+        height: 10vw;
+        width: 10vw;
         z-index: 1;
-        padding: 0.4rem 0.9rem;
-        margin: 0px;
+        padding: 0 0 0 0;
         cursor: pointer;
         transition: all 0.4s linear;
         background-image: url(/Assets/WoodSign.png);
         background-size: 100% 100%;
         font-family: "aldrich";
+        line-height: 10vw;
         font-size: 7vw;
         color: yellow;
         -webkit-text-stroke: black 1px;
         transition-duration: 0s;
         right: 3vw;
-        top: 12vw;
+        bottom: 12vw;
         }
 
     
@@ -394,22 +401,5 @@ td{
     .navigation ul.show{
     right: 0px;
     display: block;
-    }
-
-    .main{
-   /*      padding-top: 7.5rem;
-        background-position: 0px 150px;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        bottom: 0px; */
-    }
-
-    .atajohome{
-      /*   position: absolute;
-        left: 11px;
-        top: -76px;
-        width: 124px;
-        height: 122px;
-        text-align: center; */
     }
 }
