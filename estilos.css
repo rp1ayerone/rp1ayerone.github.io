@@ -37,7 +37,7 @@ body{
     padding: 0px;
     z-index: 2;
     top: 48%;
-    height: 55.72px;
+    height: 0;
     justify-content: space-between;
     align-items: baseline;
     flex-wrap: wrap;
@@ -66,7 +66,7 @@ body{
 .navigation {
     width: 100%;
     top: 0px;
-    height: 66.75px;
+    height: 0;
 }
 
 .navigation ul {
@@ -77,7 +77,7 @@ body{
 
 .navigation ul li {
     display: inline-block;
-    padding: 0em 3vw 0em 0em;
+    padding: 0vw 3vw 1vw 1vw;
 }
 
 .navigation ul li a {
@@ -307,7 +307,7 @@ td{
     font-family: 'Aldrich';
 }
 
-@media only screen and (max-width: 1216px){
+@media only screen and (max-width: 450px){
 
     *{
         font-family: "Aldrich";
@@ -457,7 +457,7 @@ td{
     table{
         border: none;
         border-collapse: separate;
-        border-spacing: 0 7px; /* Separación entre banners tabla */
+        border-spacing: 0 3vw; /* Separación entre banners tabla */
         width: 100%;
     }
     
@@ -470,7 +470,7 @@ td{
     }
     
     .TituloTabla{
-        font-size: 4vw;
+        font-size: 5.7vw;
         padding: 0px;
         margin: 2vw 0 0 1.9vw;
         text-align: left;
@@ -480,22 +480,22 @@ td{
     }
     
     .ParrafoTabla{
-        font-size: 2.7vw;
+        font-size: 4vw;
         color: white;
         text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
         vertical-align: top;
-        padding: 0px;
-        margin: .5vw 0 0 2.0vw;
-        width: 100%;
+        margin: .5vw 0 8 2.0vw;
+        width: 95vw;
+        margin-top: 2vw;
     }
     
     .fototabla{
+        display: none;
         width: 32vw;
         height: 22vw;
         padding: 0px 0px;
         margin: 0 0 0 9vw;
     }
-    
     
     .fila1{
         background-image: url(/Assets/Config\ Tecnica2.jpg);
@@ -505,11 +505,15 @@ td{
         padding: 0px;
         height: 70vw;
     }
+
+    .tablabrowser{
+        display: none;
+    }
     
     .TituloTabla2{
-        font-size: 3vw;
+        font-size: 5.7vw;
         padding: 0px;
-        margin: 2vw 0 0 -1.9vw;
+        margin: 2vw 0 0 1.9vw;
         text-align: left;
         width: 100%;
         color: white;
@@ -517,16 +521,17 @@ td{
     }
     
     .ParrafoTabla2{
-        font-size: 1.4vw;
+        font-size: 4vw;
         color: white;
         text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
         vertical-align: top;
-        padding: 0px;
-        margin: .5vw 0 0 -2.0vw;
-        width: 100%;
+        margin: .5vw 0 8 2.0vw;
+        width: 95vw;
+        margin-top: 2vw;
     }
     
     .fototabla2{
+        display: none;
         width: 32vw;
         height: 22vw;
         padding: 0px 0px;
@@ -562,9 +567,9 @@ td{
     }
     
     .TituloTabla3{
-        font-size: 3vw;
+        font-size: 5.7vw;
         padding: 0px;
-        margin: 1vw 0 0 -2vw;
+        margin: 2vw 0 0 1.9vw;
         text-align: left;
         width: 100%;
         color: white;
@@ -605,7 +610,7 @@ td{
     }
     
     .footertexto{
-        font-size: 15px;
+        font-size: 3vw;
         margin: 0;
         padding: 0%;
         text-align: center;
