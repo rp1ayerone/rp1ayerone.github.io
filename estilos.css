@@ -252,7 +252,7 @@ td{
     max-width: 1vw;
 }
 
-.TituloTabla3{
+/* .TituloTabla3{
     font-size: 3vw;
     padding: 0px;
     margin: 1vw 0 0 -2vw;
@@ -270,14 +270,14 @@ td{
     padding: 0px;
     margin: .5vw 0 0 -2.0vw;
     width: 100%;
-}
+} */
 
-.fototabla3{
+/* .fototabla3{
     width: 32vw;
     height: 22vw;
     padding: 0px 0px;
     margin: 0 0 0 8vw;
-}
+} */
 
 .fila5{
     background-image: url(/Assets/Taylor2.jpg);
@@ -307,7 +307,7 @@ td{
     font-family: 'Aldrich';
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 1100px){
 
     *{
         font-family: "Aldrich";
@@ -616,5 +616,3 @@ td{
         text-align: center;
         background-color: #918f89;
     }
-
-}
