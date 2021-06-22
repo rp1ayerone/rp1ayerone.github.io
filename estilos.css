@@ -341,11 +341,11 @@ td{
         margin-right: 0px;
         height: 35vw;
         width: 35vw;
-           }
+    }
 
-           .logo-nav-container{
-            height: 35vw;
-        }
+    .logo-nav-container{
+        height: 35vw;
+    }
 
     .menu-icon{
         text-align: center;
@@ -369,11 +369,12 @@ td{
         bottom: 12vw;
         }
 
+        /* BACKUP PRE CAMBIOS NAVEGACIÓN */
     
     .navigation{
         position: absolute;
         background-size: 100% 100%;
-        top: -6vw;
+        top: -9vw;
         left: 26vw;
         width: 70vw;
         height: 36vw;
@@ -382,13 +383,13 @@ td{
     .navigation ul li {
         text-align: center;
         background-size: 100% 100%;
-        padding: 1vw;
+        padding: 2vw;
     }
 
     
     .navigation ul li a {
         text-align: center;
-        padding: 2vw 2vw;
+        padding: 2.7vw 2vw;
         background-size: 100% 100%;
         font-size: 5vw;
     }
