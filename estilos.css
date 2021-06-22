@@ -124,6 +124,10 @@ p{
     text-align: justify;
 }
 
+.ParrafoIntroductorio2{
+    display: none;
+}
+
 .menu-icon{
     display: none;
 }
@@ -407,4 +411,205 @@ td{
         
     
     }
+
+    h1{
+        font-size: 5.7vw;
+        line-height: 1em;
+    }
+    
+    h2{
+        font-size: 5vw;
+        line-height: 1em;
+    }
+    
+    h3{
+        font-size: 4vw;
+        line-height: 1.3em;
+    }
+    
+    p{
+        font-size: 3vw;
+        line-height: 3.5vw;;
+        text-align: justify;
+    }
+
+    .ParrafoIntroductorio{
+        display: none;
+    }
+
+    .ParrafoIntroductorio2{
+        display: block;
+    }
+    
+    .containertitulos {
+        text-align: justify;
+        max-width: 91vw;
+        padding-top: 10vw;
+        margin-left: 4vw;
+    }
+    
+    .tablaservicios {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+      }
+    
+    table{
+        border: none;
+        border-collapse: separate;
+        border-spacing: 0 7px; /* Separación entre banners tabla */
+        width: 100%;
+    }
+    
+    td{
+        text-align: justify;
+        margin: 0px;
+        padding: 0;
+        vertical-align: top;
+        
+    }
+    
+    .TituloTabla{
+        font-size: 4vw;
+        padding: 0px;
+        margin: 2vw 0 0 1.9vw;
+        text-align: left;
+        width: 100%;
+        color: white;
+        text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    }
+    
+    .ParrafoTabla{
+        font-size: 2.7vw;
+        color: white;
+        text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+        vertical-align: top;
+        padding: 0px;
+        margin: .5vw 0 0 2.0vw;
+        width: 100%;
+    }
+    
+    .fototabla{
+        width: 32vw;
+        height: 22vw;
+        padding: 0px 0px;
+        margin: 0 0 0 9vw;
+    }
+    
+    
+    .fila1{
+        background-image: url(/Assets/Config\ Tecnica2.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0px;
+        padding: 0px;
+        height: 70vw;
+    }
+    
+    .TituloTabla2{
+        font-size: 3vw;
+        padding: 0px;
+        margin: 2vw 0 0 -1.9vw;
+        text-align: left;
+        width: 100%;
+        color: white;
+        text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    }
+    
+    .ParrafoTabla2{
+        font-size: 1.4vw;
+        color: white;
+        text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+        vertical-align: top;
+        padding: 0px;
+        margin: .5vw 0 0 -2.0vw;
+        width: 100%;
+    }
+    
+    .fototabla2{
+        width: 32vw;
+        height: 22vw;
+        padding: 0px 0px;
+        margin: 0 0 0 8vw;
+    }
+    
+    .fila2{
+        background-image: url(/Assets/Coaching2.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .fila3{
+        background-image: url(/Assets/Comm\ Managment2.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .fila4{
+        background-image: url(/Assets/Comp\ Psico2.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .filaPsico{
+        max-width: 1vw;
+    }
+    
+    .TituloTabla3{
+        font-size: 3vw;
+        padding: 0px;
+        margin: 1vw 0 0 -2vw;
+        text-align: left;
+        width: 100%;
+        color: white;
+        text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    }
+    
+    .ParrafoTabla3{
+        font-size: 1.4vw;
+        color: white;
+        text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+        vertical-align: top;
+        padding: 0px;
+        margin: .5vw 0 0 -2.0vw;
+        width: 100%;
+    }
+    
+    .fototabla3{
+        width: 32vw;
+        height: 22vw;
+        padding: 0px 0px;
+        margin: 0 0 0 8vw;
+    }
+    
+    .fila5{
+        background-image: url(/Assets/Taylor2.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .footer{
+        position: absolute;
+        width: 100%;
+        height: fit-content;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .footertexto{
+        font-size: 15px;
+        margin: 0;
+        padding: 0%;
+        text-align: center;
+        background-color: #918f89;
+    }
+
 }
