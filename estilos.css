@@ -4,12 +4,11 @@ html, body {
 }
 
 body{
-    font-family: "Aldrich";
-    font-size: 1.2rem;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2rem;
     line-height: 1.6em;
     margin: 0;
     width: 100%;
-    margin: 0px;
     padding: 0px;
 }
 
@@ -90,8 +89,8 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     padding: 1vw;
-    font-family: "aldrich";
-    font-size: 1.6vw;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.8vw;
     color: yellow;
     -webkit-text-stroke: black 1px;
     transition-duration: 0s;
@@ -288,7 +287,7 @@ td{
 }
 
 .footer{
-    position: absolute;
+    position: sticky;
     width: 100%;
     height: fit-content;
     padding: 0px;
@@ -304,13 +303,13 @@ td{
 }
 
 *{
-    font-family: 'Aldrich';
+    font-family: 'Exo 2', sans-serif;
 }
 
 @media only screen and (max-width: 1100px){
 
     *{
-        font-family: "Aldrich";
+        font-family: 'Exo 2', sans-serif;
     }
 
     .main{
@@ -363,7 +362,7 @@ td{
         transition: all 0.4s linear;
         background-image: url(/Assets/WoodSign.png);
         background-size: 100% 100%;
-        font-family: "aldrich";
+        font-family: 'Exo 2', sans-serif;
         line-height: 10vw;
         font-size: 7vw;
         color: yellow;
@@ -452,7 +451,7 @@ td{
         width: 100%;
         padding: 0px;
         margin: 0px;
-      }
+    }
     
     table{
         border: none;
@@ -616,3 +615,4 @@ td{
         text-align: center;
         background-color: #918f89;
     }
+}
