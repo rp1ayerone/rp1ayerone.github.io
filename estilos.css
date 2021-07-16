@@ -259,6 +259,14 @@ td{
     padding: 0px;
 }
 
+.fila6{
+    background-image: url(/Assets/editor2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
 .whatsapp {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -277,7 +285,7 @@ td{
     height: 60px;
     bottom: 30px;
     right: 40px;
-    background-image: url(/Assets/WoodSign.png);
+    background-image: url(/Assets/WoodSignWsp.png);
     background-size: 250%;
     background-position: center;
     color: #FFF;
