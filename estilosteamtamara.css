@@ -158,10 +158,9 @@ td{
 }
 
 .contacto{
-    position: relative;
+    position: absolute;
     bottom: 2.6vw;
-    left: -1vw;
-    top: 7.9vw;
+    left: 43vw;
 
 }
 
@@ -177,7 +176,7 @@ td{
     width: 20.5vw;;
     height: 32vw;
     display: table-cell;
-    background-image: url(/Assets/Frann.jpg);
+    background-image: url(/Assets/Luu.png);
     background-size: 100% 100%;
 }
 
@@ -362,5 +361,54 @@ height: 100%;
         text-align: justify;
     }
 
+    .ParrafoIntroductorio{
+        display: none;
+    }
 
+    .ParrafoIntroductorio2{
+        display: block;
+    }
+    
+    .containertitulos {
+        text-align: left;
+        max-width: 92vw;
+        padding-top: 10vw;
+        margin-left: 4vw;
+    }
+    
+    .tablateam {
+        width: 100%;
+        padding: 0px;
+        margin-left: 6.5vw;
+      }
+    }                                                                                                                                       
+    
+    table{
+        border: none;
+        border-collapse: separate;
+        width: 100%;
+    }
+    
+    td{
+        text-align: justify;
+        padding: 0 0 10 0;
+        vertical-align: top;
+        margin-left: 10vw;
+        margin-top: -5vw;
+    }
+
+    .footer{
+        width: 100%;
+        height: fit-content;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .footertexto{
+        font-size: 15px;
+        margin: 0;
+        padding: 0%;
+        text-align: center;
+        background-color: #918f89;
+    }
 }
