@@ -131,15 +131,9 @@ p{
     display: none;
 }
 
-.containertitulos {
-    text-align: justify;
-    max-width: 60vw;
-    padding-top: 10vw;
-    margin-left: 20vw;
-}
-
 main{
-    height: 100%;
+    height: fit-content;
+    width: fit-content;
 }
 
 table{
@@ -148,12 +142,14 @@ table{
     width: 100%;
     padding: 0 0 0 0;
     margin-left: 18vw;
+    margin-top: 12vw;
 }
 
 td{
     text-align: justify;
     vertical-align: top;
     border-spacing: 2vw;
+    width: 20vw;
 }
 
 .tablamovil{
@@ -161,23 +157,37 @@ td{
 }
 
 .fototabla{
-    width: 13.60vw;;
-    height: 20.85vw;
-    /* padding: 1vw; */
+    width: 22vw;;
+    height: 32vw;
     margin: 10px;
     display: table-cell;
     background-image: url(/Assets/Frann.jpg);
     background-size: 100% 100%;
 }
 
-.fototabla:hover{
-    width: 13.60vw;;
-    height: 20.85vw;
-    /* padding: 1vw; */
-    margin: 10px;
-    display: table-cell;
-    background-image: url(/Assets/FranciscoAmestoy.jpg);
-    background-size: 100% 100%;
+.titulo1{
+ margin-top: 1vw;   
+ padding: 0;
+ font-size: 2.5vw;
+ margin-bottom: -1vw;
+ margin-left: -1vw;
+}
+
+.subtitulo{
+    margin-top: 1vw;   
+    padding: 0;
+    font-size: 1.5vw;
+    margin-bottom: -1vw;
+    margin-left: -1vw;
+   }
+
+.ParrafoIntroductorio{
+    margin-top: 1.5vw;   
+    padding: 0;
+    font-size: 1.2vw;
+    margin-bottom: -1vw;
+    margin-left: -1vw;
+    width: 40vw;
 }
 
 .LinkFrancisco{
@@ -188,107 +198,6 @@ margin: 0px;
 padding: 0px;
 text-align: center;
 height: 100%;
-}
-
-.fototabla2{
-    width: 13.60vw;;
-    height: 20.85vw;
-    display: table-cell;
-    
-    background-image: url(/Assets/Luu.png);
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.fototabla2:hover{
-    width: 13.60vw;;
-    height: 20.85vw;
-    /* padding: 1vw; */
-    display: table-cell;
-    
-    background-image: url(/Assets/LucíaGangi.jpg);
-    background-size: 100% 100%;
-}
-
-.LinkLucía{
-    font-family: aldrich;
-    border: 2px black solid;
-    display: block;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    height: 100%;
-    }
-
-.fototabla3{
-    width: 13.60vw;;
-    height: 20.85vw;
-    /* padding: 1vw; */
-    display: table-cell;
-    
-    background-image: url(/Assets/Tamara.jpg);
-    background-size: 100% 100%;
-}
-
-.fototabla3:hover{
-    width: 13.60vw;;
-    height: 20.85vw;
-    /* padding: 1vw; */
-    display: table-cell;
-    
-    background-image: url(/Assets/TamaraSaenz.jpg);
-    background-size: 100% 100%;
-}
-
-.LinkOrietta{
-    font-family: aldrich;
-    border: 2px black solid;
-    display: block;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    height: 100%;
-    }
-
-.fototabla4{
-    width: 13.60vw;;
-    height: 20.85vw;
-    /* padding: 1vw; */
-    display: table-cell;
-    
-    background-image: url(/Assets/Orietta.jpg);
-    background-size: 100% 100%;
-}
-
-.fototabla4:hover{
-    width: 13.60vw;;
-    height: 20.85vw;
-    /* padding: 1vw; */
-    display: table-cell;
-    
-    background-image: url(/Assets/OriettaSferco.jpg);
-    background-size: 100% 100%;
-}
-
-.LinkTamara{
-    font-family: aldrich;
-    border: 2px black solid;
-    display: block;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    height: 100%;
-    }
-
-.fototabla5{
-    width: 13.60vw;
-    height: 20.85vw;
-    padding: 1vw;
-    display: none;
-    
-    background-image: url(/Assets/PhotoBracket.jpg);
-    background-size: 100% 100%;
 }
 
 .footer{
