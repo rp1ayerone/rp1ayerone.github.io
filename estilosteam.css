@@ -147,13 +147,17 @@ table{
     border-collapse: separate;
     width: 100%;
     padding: 0 0 0 0;
-    margin-left: 13vw;
+    margin-left: 18vw;
 }
 
 td{
     text-align: justify;
     vertical-align: top;
     border-spacing: 2vw;
+}
+
+.tablamovil{
+    display: none;
 }
 
 .fototabla{
@@ -314,6 +318,7 @@ height: 100%;
 
     .main{
         margin-top: 25vw;
+        height: fit-content;
     }
 
     .header{
@@ -412,22 +417,22 @@ height: 100%;
     }
 
     h1{
-        font-size: 5.7vw;
+        font-size: 4.7vw;
         line-height: 1em;
     }
     
     h2{
-        font-size: 5vw;
+        font-size: 4vw;
         line-height: 1em;
     }
     
     h3{
-        font-size: 4.5vw;
+        font-size: 3.5vw;
         line-height: 1.3em;
     }
     
     p{
-        font-size: 4vw;
+        font-size: 3vw;
         line-height: 5vw;;
         text-align: justify;
     }
@@ -441,8 +446,8 @@ height: 100%;
     }
     
     .containertitulos {
-        text-align: justify;
-        max-width: 91vw;
+        text-align: left;
+        max-width: 92vw;
         padding-top: 10vw;
         margin-left: 4vw;
     }
@@ -450,23 +455,72 @@ height: 100%;
     .tablateam {
         width: 100%;
         padding: 0px;
-        margin: 0px;
+        margin-left: 6.5vw;
       }
+
+      .tablapc{
+        display: none;
+    }
+
+      .tablamovil{
+        display: block;
+    }
     
     table{
         border: none;
         border-collapse: separate;
-        border-spacing: 0 3vw; /* Separación entre banners tabla */
         width: 100%;
     }
     
     td{
         text-align: justify;
-        margin: 0px;
-        padding: 0;
+        padding: 0 0 10 0;
         vertical-align: top;
+        margin-left: 10vw;
+        margin-top: -5vw;
     }
     
+    .fototablamovil{
+        width: 40vw;
+        height: 60vw;
+        /* padding: 1vw; */
+        margin: 10px;
+        display: table-cell;
+        background-image: url(/Assets/Frann.jpg);
+        background-size: 100% 100%;
+    }
+
+    .fototablamovil2{
+        width: 40vw;
+        height: 60vw;
+        display: table-cell;
+        
+        background-image: url(/Assets/Luu.png);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .fototablamovil3{
+        width: 40vw;
+        height: 60vw;
+        /* padding: 1vw; */
+        display: table-cell;
+        
+        background-image: url(/Assets/Tamara.jpg);
+        background-size: 100% 100%;
+    }
+
+    .fototablamovil4{
+        width: 40vw;;
+        height: 60vw;
+        /* padding: 1vw; */
+        display: table-cell;
+        
+        background-image: url(/Assets/Orietta.jpg);
+        background-size: 100% 100%;
+    }
+
     .footer{
         position: absolute;
         width: 100%;
