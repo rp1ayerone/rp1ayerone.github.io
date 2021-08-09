@@ -152,14 +152,29 @@ td{
     width: 20vw;
 }
 
-.tablamovil{
-    display: none;
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.contacto{
+    position: absolute;
+    bottom: 2.6vw;
+    left: 43vw;
+
+}
+
+.logocontacto{
+    height: 1.2vw;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -0.2vw;
+    margin-top: 0.4vw;
 }
 
 .fototabla{
-    width: 22vw;;
+    width: 20.5vw;;
     height: 32vw;
-    margin: 10px;
     display: table-cell;
     background-image: url(/Assets/Frann.jpg);
     background-size: 100% 100%;
@@ -366,14 +381,7 @@ height: 100%;
         padding: 0px;
         margin-left: 6.5vw;
       }
-
-      .tablapc{
-        display: none;
-    }
-
-      .tablamovil{
-        display: block;
-    }
+    }                                                                                                                                       
     
     table{
         border: none;
@@ -388,58 +396,16 @@ height: 100%;
         margin-left: 10vw;
         margin-top: -5vw;
     }
-    
-    .fototablamovil{
-        width: 40vw;
-        height: 60vw;
-        /* padding: 1vw; */
-        margin: 10px;
-        display: table-cell;
-        background-image: url(/Assets/Frann.jpg);
-        background-size: 100% 100%;
-    }
-
-    .fototablamovil2{
-        width: 40vw;
-        height: 60vw;
-        display: table-cell;
-        
-        background-image: url(/Assets/Luu.png);
-        background-size: 100% 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .fototablamovil3{
-        width: 40vw;
-        height: 60vw;
-        /* padding: 1vw; */
-        display: table-cell;
-        
-        background-image: url(/Assets/Tamara.jpg);
-        background-size: 100% 100%;
-    }
-
-    .fototablamovil4{
-        width: 40vw;;
-        height: 60vw;
-        /* padding: 1vw; */
-        display: table-cell;
-        
-        background-image: url(/Assets/Orietta.jpg);
-        background-size: 100% 100%;
-    }
 
     .footer{
-        position: absolute;
         width: 100%;
         height: fit-content;
         padding: 0px;
-        margin: 0px;
+        margin-bottom: 0px;
     }
     
     .footertexto{
-        font-size: 3vw;
+        font-size: 15px;
         margin: 0;
         padding: 0%;
         text-align: center;
