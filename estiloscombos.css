@@ -131,8 +131,15 @@ p{
     display: none;
 }
 
+.containertitulos {
+    text-align: justify;
+    max-width: 60vw;
+    padding-top: 10vw;
+    margin-left: 20vw;
+}
+
 main{
-    width: 100%;
+    height: 100%;
 }
 
 table{
@@ -141,78 +148,12 @@ table{
     width: 100%;
     padding: 0 0 0 0;
     margin-left: 18vw;
-    margin-top: 12vw;
 }
 
 td{
     text-align: justify;
     vertical-align: top;
     border-spacing: 2vw;
-    width: 20vw;
-}
-
-.link{
-    text-decoration: none;
-    color: black;
-}
-
-.contacto{
-    position: relative;
-    bottom: 2.6vw;
-    left: -1vw;
-    top: 7.9vw;
-
-}
-
-.logocontacto{
-    height: 1.2vw;
-    margin: 0;
-    padding: 0;
-    margin-bottom: -0.2vw;
-    margin-top: 0.4vw;
-}
-
-.fototabla{
-    width: 20.5vw;;
-    height: 32vw;
-    display: table-cell;
-    background-image: url(/Assets/Frann.jpg);
-    background-size: 100% 100%;
-}
-
-.titulo1{
- margin-top: 1vw;   
- padding: 0;
- font-size: 2.5vw;
- margin-bottom: -1vw;
- margin-left: -1vw;
-}
-
-.subtitulo{
-    margin-top: 1vw;   
-    padding: 0;
-    font-size: 1.5vw;
-    margin-bottom: -1vw;
-    margin-left: -1vw;
-   }
-
-.ParrafoIntroductorio{
-    margin-top: 1.5vw;   
-    padding: 0;
-    font-size: 1.2vw;
-    margin-bottom: -1vw;
-    margin-left: -1vw;
-    width: 40vw;
-}
-
-.LinkFrancisco{
-font-family: aldrich;
-border: 2px black solid;
-display: block;
-margin: 0px;
-padding: 0px;
-text-align: center;
-height: 100%;
 }
 
 .footer{
@@ -340,6 +281,111 @@ height: 100%;
     
     }
 
+    h1{
+        font-size: 4.7vw;
+        line-height: 1em;
+    }
+    
+    h2{
+        font-size: 4.3vw;
+        line-height: 1em;
+    }
+    
+    h3{
+        font-size: 3.5vw;
+        line-height: 1.3em;
+    }
+    
+    p{
+        font-size: 3vw;
+        line-height: 5vw;;
+        text-align: justify;
+    }
+
+    .ParrafoIntroductorio{
+        display: none;
+    }
+
+    .ParrafoIntroductorio2{
+        display: block;
+    }
+    
+    .containertitulos {
+        text-align: left;
+        max-width: 92vw;
+        padding-top: 10vw;
+        margin-left: 4vw;
+    }
+    
+    .tablateam {
+        width: 100%;
+        padding: 0px;
+        margin-left: 6.5vw;
+      }
+
+      .tablapc{
+        display: none;
+    }
+
+      .tablamovil{
+        display: block;
+    }
+    
+    table{
+        border: none;
+        border-collapse: separate;
+        width: 100%;
+    }
+    
+    td{
+        text-align: justify;
+        padding: 0 0 10 0;
+        vertical-align: top;
+        margin-left: 10vw;
+        margin-top: -5vw;
+    }
+    
+    .fototablamovil{
+        width: 40vw;
+        height: 60vw;
+        /* padding: 1vw; */
+        margin: 10px;
+        display: table-cell;
+        background-image: url(/Assets/Frann.jpg);
+        background-size: 100% 100%;
+    }
+
+    .fototablamovil2{
+        width: 40vw;
+        height: 60vw;
+        display: table-cell;
+        
+        background-image: url(/Assets/Luu.png);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .fototablamovil3{
+        width: 40vw;
+        height: 60vw;
+        /* padding: 1vw; */
+        display: table-cell;
+        
+        background-image: url(/Assets/Tamara.jpg);
+        background-size: 100% 100%;
+    }
+
+    .fototablamovil4{
+        width: 40vw;;
+        height: 60vw;
+        /* padding: 1vw; */
+        display: table-cell;
+        
+        background-image: url(/Assets/Orietta.jpg);
+        background-size: 100% 100%;
+    }
+
     .footer{
         position: absolute;
         width: 100%;
@@ -355,110 +401,4 @@ height: 100%;
         text-align: center;
         background-color: #918f89;
     }
-    
-    main{
-        height: 100%;
-        width: 100%;
-    }
-    
-    table{
-        border: none;
-        border-collapse: separate;
-        width: 100%;
-        padding: 0 0 0 0;
-        margin-left: 8vw;
-        margin-top: 38vw;
-    }
-    
-    td{
-        text-align: justify;
-        vertical-align: top;
-        border-spacing: 2vw;
-        width: 20vw;
-    }
-    
-    .link{
-        text-decoration: none;
-        color: black;
-    }
-    
-    .contacto{
-        position: relative;
-        bottom: 2.6vw;
-        left: -1vw;
-        top: 7.9vw;
-    
-    }
-    
-    .logocontacto{
-        height: 1.2vw;
-        margin: 0;
-        padding: 0;
-        margin-bottom: -0.2vw;
-        margin-top: 0.4vw;
-    }
-    
-    .fototabla{
-        width: 40vw;
-        height: 45vw;
-        display: table-cell;
-        background-image: url(/Assets/Frann.jpg);
-        background-size: 100% 100%;
-    }
-    
-    .titulo1{
-     margin-top: 1vw;   
-     padding: 0;
-     font-size: 2.5vw;
-     margin-bottom: -1vw;
-     margin-left: -1vw;
-    }
-    
-    .subtitulo{
-        margin-top: 1vw;   
-        padding: 0;
-        font-size: 1.5vw;
-        margin-bottom: -1vw;
-        margin-left: -1vw;
-       }
-    
-    .ParrafoIntroductorio{
-        margin-top: 1.5vw;   
-        padding: 0;
-        font-size: 1.2vw;
-        margin-bottom: -1vw;
-        margin-left: -1vw;
-        width: 40vw;
-    }
-    
-    .LinkFrancisco{
-    font-family: aldrich;
-    border: 2px black solid;
-    display: block;
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    height: 100%;
-    }
-    
-    .footer{
-        width: 100%;
-        height: fit-content;
-        padding: 0px;
-        margin-bottom: 0px;
-    }
-    
-    .footertexto{
-        font-size: 15px;
-        margin: 0;
-        padding: 0%;
-        text-align: center;
-        background-color: #918f89;
-    }
-    
-    *{
-        font-family: 'Exo 2', sans-serif;
-    }
-    
-
 }
