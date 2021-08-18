@@ -197,7 +197,7 @@ td{
 }
 
 .fila2{
-    background-image: url(/Assets/Config\ Tecnica2.jpg);
+    background-image: url(/Assets/Coaching2.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0px;
@@ -206,6 +206,33 @@ td{
 }
 
 .fila3{
+    background-image: url(/Assets/Config\ Tecnica2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    height: 20vw;
+}
+
+.fila4{
+    background-image: url(/Assets/Config\ Tecnica2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    height: 20vw;
+}
+
+.fila5{
+    background-image: url(/Assets/Config\ Tecnica2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    height: 20vw;
+}
+
+.fila6{
     background-image: url(/Assets/Config\ Tecnica2.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
