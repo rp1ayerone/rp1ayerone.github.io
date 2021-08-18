@@ -31,7 +31,7 @@ body{
 
 .linkconsultar{
     color: white;
-    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 
 .logo-nav-container{
@@ -143,105 +143,143 @@ p{
     margin-left: 20vw;
 }
 
+.tablaservicios {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
 table{
-    margin-left: auto;
-    margin-right: auto;
+    border: none;
     border-collapse: separate;
-    border-spacing: 0 2vw;
+    border-spacing: 0 15px;
+    width: 100%;
 }
 
-.fototabla{
+td{
+    text-align: justify;
+    margin: 0px;
+    padding: 0;
+    vertical-align: top;
     
-    width: 30vw;
-    height: 20vw;
-    padding: 1vw;
 }
 
 .TituloTabla{
-    margin-bottom: 1vw;
-    margin-top: 1vw;
-    padding-top: 0vw;
-    padding-bottom: 0vw;
-    font-size: 2vw;
+    font-size: 2.2vw;
+    padding: 0px;
+    margin: 2vw 0 0 1.9vw;
     text-align: left;
-    vertical-align: top;
+    width: 100%;
     color: white;
-    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 
 .ParrafoTabla{
     font-size: 1.2vw;
-    margin: 1vw;
     color: white;
-    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 1px 0 black;
-    line-height: 2vw;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
     vertical-align: top;
-    width: 100%;  
-}
-
-.TituloTabla1{
-    margin-bottom: 0vw;
-    margin-top: 0vw;
-    padding-top: 0vw;
-    padding-bottom: 0vw;
-    font-size: 2vw;
-    text-align: left;
-    vertical-align: top;
-    color: white;
-    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
-}
-
-.ParrafoTabla1{
-    font-size: 1.2vw;
-    margin: 0vw;
-    color: white;
-    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 1px 0 black;
-    line-height: 2vw;
-    vertical-align: top;
-    width: 100%;  
-}
-
-.containtertexto{
-    height: 150px;
-    
+    padding: 0px;
+    margin: .5vw 0 0 2.0vw;
+    width: 100%;
+    line-height: 2.5vw;
 }
 
 .ParrafoTablaCons{
-    
     font-size: 1.2vw;
     color: white;
-    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
     vertical-align: top;
     text-align: right;
-    width: 95.5%;
-    padding: 1vw;
+    padding: 0px;
+    margin-left: -1vw;
+    margin-top: -1vw;
+    width: 100%;
+    line-height: 2.5vw;
 }
 
+
+
+
 .fila1{
-    background-image: url(/Assets/TurnedOnBG.jpg);
+    background-image: url(/Assets/Config\ Tecnica2.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0px;
     padding: 0px;
     height: 20vw;
+}
+
+.TituloTabla2{
+font-size: 2.2vw;
+padding: 0px;
+margin: 2vw 0 0 1.9vw;
+text-align: left;
+width: 100%;
+color: white;
+text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}
+
+.ParrafoTabla2{
+    font-size: 1.2vw;
+    color: white;
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    vertical-align: top;
+    padding: 0px;
+    margin: .5vw 0 0 2.0vw;
+    width: 100%;
+    line-height: 2.5vw;
+}
+
+.fototabla2{
+    width: 32vw;
+    height: 22vw;
+    padding: 0px 0px;
+    margin: 0 0 0 8vw;
 }
 
 .fila2{
-    background-image: url(/Assets/PartyStartedBG.jpg);
+    background-image: url(/Assets/Coaching2.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0px;
     padding: 0px;
-    height: 20vw;
 }
 
 .fila3{
-    background-image: url(/Assets/letsgoproBG.jpg);
+    background-image: url(/Assets/Comm\ Managment2.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 0px;
     padding: 0px;
-    height: 20vw;
+}
+
+.fila4{
+    background-image: url(/Assets/Comp\ Psico2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.filaPsico{
+    max-width: 1vw;
+}
+
+.fila5{
+    background-image: url(/Assets/Taylor2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fila6{
+    background-image: url(/Assets/editor2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
 }
 
 .whatsapp {
@@ -465,13 +503,13 @@ table{
         text-align: left;
         width: 100%;
         color: white;
-        text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+        text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
     }
     
     .ParrafoTabla{
         font-size: 4vw;
         color: white;
-        text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+        text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
         vertical-align: top;
         margin: .5vw 0 8 2.0vw;
         width: 95vw;
@@ -482,8 +520,8 @@ table{
     
     .fototabla{
         display: none;
-        width: 30vw;
-        height: 20vw;
+        width: 32vw;
+        height: 22vw;
         padding: 0px 0px;
         margin: 0 0 0 9vw;
     }
@@ -508,13 +546,13 @@ table{
         text-align: left;
         width: 100%;
         color: white;
-        text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+        text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
     }
     
     .ParrafoTabla2{
         font-size: 4vw;
         color: white;
-        text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+        text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
         vertical-align: top;
         margin: .5vw 2.5vw 8 2.5vw;
         width: 95vw;
@@ -565,13 +603,13 @@ table{
         text-align: left;
         width: 100%;
         color: white;
-        text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+        text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
     }
     
     .ParrafoTabla3{
         font-size: 1.4vw;
         color: white;
-        text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 2px black, -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black;
+        text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
         vertical-align: top;
         padding: 0px;
         margin: .5vw 0 0 -2.0vw;
@@ -594,13 +632,7 @@ table{
         padding: 0px;
     }
 
-    .fototabla{
-    width: 32vw;
-    height: 22vw;
-    padding: 0px 0px;
-    margin: 0 0 0 9vw;
-}
-
+    
     
     .footer{
         position: absolute;
