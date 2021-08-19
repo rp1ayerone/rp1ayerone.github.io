@@ -498,7 +498,7 @@ table{
     }
     
     .fila1{
-        background-image: url(/Assets/Config\ Tecnica2.jpg);
+        background-image: url(/Assets/TurnedOnBG.jpg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         margin: 0px;
@@ -506,7 +506,7 @@ table{
     }
 
     .fila2{
-        background-image: url(/Assets/Coaching2.jpg);
+        background-image: url(/Assets/PartyStartedBG.jpg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         margin: 0px;
@@ -514,32 +514,13 @@ table{
     }
     
     .fila3{
-        background-image: url(/Assets/Comm\ Managment2.jpg);
+        background-image: url(/Assets/letsgoproBG.jpg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         margin: 0px;
         padding: 0px;
     }
-    
-    .fila4{
-        background-image: url(/Assets/Comp\ Psico2.jpg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        margin: 0px;
-        padding: 0px;
-    }
-    
-    .filaPsico{
-        max-width: 1vw;
-    }
-    
-    .fila5{
-        background-image: url(/Assets/Taylor2.jpg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        margin: 0px;
-        padding: 0px;
-    }
+
 
     .footer{
         position: absolute;
