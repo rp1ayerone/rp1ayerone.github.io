@@ -346,7 +346,7 @@ height: 100%;
 
     .main{
         margin-top: 25vw;
-        height: fit-content;
+        height: 100vw;
     }
 
     .header{
@@ -445,22 +445,22 @@ height: 100%;
     }
 
     h1{
-        font-size: 4.7vw;
+        font-size: 4.5vw;
         line-height: 1em;
     }
     
     h2{
-        font-size: 4.3vw;
+        font-size: 3.5vw;
         line-height: 1em;
     }
     
     h3{
-        font-size: 3.5vw;
+        font-size: 2vw;
         line-height: 1.3em;
     }
     
     p{
-        font-size: 3vw;
+        font-size: 2.5vw;
         line-height: 5vw;;
         text-align: justify;
     }
@@ -474,81 +474,58 @@ height: 100%;
     }
     
     .containertitulos {
-        text-align: left;
-        max-width: 92vw;
+        text-align: justify;
+        max-width: 91vw;
         padding-top: 10vw;
         margin-left: 4vw;
     }
     
-    .tablateam {
+    .tablateam{
         width: 100%;
-        padding: 0px;
-        margin-left: 6.5vw;
-      }
-
-      .tablapc{
-        display: none;
+        margin-left: 5vw;
+        margin-right: auto;
     }
 
-      .tablamovil{
-        display: block;
+    .fototabla{
+        width: 20vw;
+        height: 30vw;
+    }
+
+    .fototabla2{
+        width: 20vw;
+        height: 30vw;
+    }
+
+    .fototabla3{
+        width: 20vw;
+        height: 30vw;
+    }
+
+    .fototabla4{
+        width: 20vw;
+        height: 30vw;
+    }
+
+    .fototabla:hover{
+        width: 20vw;
+        height: 30vw;
+    }
+
+    .fototabla2:hover{
+        width: 20vw;
+        height: 30vw;
+    }
+
+    .fototabla3:hover{
+        width: 20vw;
+        height: 30vw;
+    }
+
+    .fototabla4:hover{
+        width: 20vw;
+        height: 30vw;
     }
     
-    table{
-        border: none;
-        border-collapse: separate;
-        width: 100%;
-    }
-    
-    td{
-        text-align: justify;
-        padding: 0 0 10 0;
-        vertical-align: top;
-        margin-left: 10vw;
-        margin-top: -5vw;
-    }
-    
-    .fototablamovil{
-        width: 40vw;
-        height: 60vw;
-        /* padding: 1vw; */
-        margin: 10px;
-        display: table-cell;
-        background-image: url(/Assets/Frann.jpg);
-        background-size: 100% 100%;
-    }
-
-    .fototablamovil2{
-        width: 40vw;
-        height: 60vw;
-        display: table-cell;
-        
-        background-image: url(/Assets/Luu.png);
-        background-size: 100% 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .fototablamovil3{
-        width: 40vw;
-        height: 60vw;
-        /* padding: 1vw; */
-        display: table-cell;
-        
-        background-image: url(/Assets/Tamara.jpg);
-        background-size: 100% 100%;
-    }
-
-    .fototablamovil4{
-        width: 40vw;;
-        height: 60vw;
-        /* padding: 1vw; */
-        display: table-cell;
-        
-        background-image: url(/Assets/Orietta.jpg);
-        background-size: 100% 100%;
-    }
-
     .footer{
         position: absolute;
         width: 100%;

@@ -196,51 +196,6 @@ td{
     height: 20vw;
 }
 
-.fila2{
-    background-image: url(/Assets/Coaching2.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: 0px;
-    padding: 0px;
-    height: 20vw;
-}
-
-.fila3{
-    background-image: url(/Assets/Config\ Tecnica2.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: 0px;
-    padding: 0px;
-    height: 20vw;
-}
-
-.fila4{
-    background-image: url(/Assets/Config\ Tecnica2.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: 0px;
-    padding: 0px;
-    height: 20vw;
-}
-
-.fila5{
-    background-image: url(/Assets/Config\ Tecnica2.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: 0px;
-    padding: 0px;
-    height: 20vw;
-}
-
-.fila6{
-    background-image: url(/Assets/Config\ Tecnica2.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: 0px;
-    padding: 0px;
-    height: 20vw;
-}
-
 .TituloTabla2{
     font-size: 3vw;
     padding: 0px;
@@ -266,6 +221,50 @@ td{
     height: 22vw;
     padding: 0px 0px;
     margin: 0 0 0 8vw;
+}
+
+.fila2{
+    background-image: url(/Assets/Coaching2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fila3{
+    background-image: url(/Assets/Comm\ Managment2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fila4{
+    background-image: url(/Assets/Comp\ Psico2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.filaPsico{
+    max-width: 1vw;
+}
+
+.fila5{
+    background-image: url(/Assets/Taylor2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fila6{
+    background-image: url(/Assets/editor2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
 }
 
 .whatsapp {
