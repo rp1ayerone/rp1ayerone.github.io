@@ -298,8 +298,8 @@ text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, 1px 1
     position: fixed;
     width: 60px;
     height: 60px;
-    bottom: 60px;
-    right: 40px;
+    bottom: 45px;
+    right: 20px;
     background-image: url(/Assets/WoodSignWsp.png);
     background-size: 250%;
     background-position: center;
